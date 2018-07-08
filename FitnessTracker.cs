@@ -1,5 +1,8 @@
 //This will be a command that lets the BaymaxBot track daily minutes spent exercising.
 //There are only 1440 minutes in a day.
+//Eventually want to set it up so that the data is stored until the command is used again, not until the max daily
+//minutes are used, that way the program doesn't keep running until the max hours are met. This was just a test to
+//learn some C# until I can find a better way to integrate it in the future.
 
 namespace Baymax.FitnessTracker
 {
