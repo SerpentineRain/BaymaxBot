@@ -33,7 +33,7 @@ namespace Baymax.FitnessTracker
             Console.WriteLine("You have exercised " + total + " minutes.");
           }
           
-          if (x % 2 > 0)
+          if (x % 2 == 1)
           {
             Console.WriteLine("Feeling the burn? How long have you been sweating, champ?");
           
