@@ -17,7 +17,7 @@ namespace Baymax.FitnessTracker
         while (total < 1440) 
         {
           
-          if (x % 2 <= 0)
+          if (x % 2 == 0)
           {  
             //Prompt the user for minutes exercised
             Console.WriteLine("Enter how many minutes you exercised: ");
